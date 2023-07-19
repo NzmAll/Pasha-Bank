@@ -1,0 +1,29 @@
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+div a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  font-size: 14px;
+}
+
+.header-section {
+  padding: 0 40px;
+  border-top: 1px solid #edefed;
+  border-bottom: 1px solid #edefed;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
