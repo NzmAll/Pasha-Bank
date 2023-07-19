@@ -1,0 +1,60 @@
+.subscription-products {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 24px;
+
+    h5{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+}
+
+.subscription-products-container {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.subscription-product {
+    transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    margin-right: 24px;
+    padding: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    border-radius: 8px;
+    background-color: #fff;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.subscription-product .subscription-price h2{
+    font-size: 60px;
+    margin: 0 4px 0 0;
+    font-weight: normal;
+    color: #000000DE;
+}
+
+
+.subscription-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: purple;
+}
+
+#help-button{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+}

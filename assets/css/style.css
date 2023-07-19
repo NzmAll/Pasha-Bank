@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+  padding-left: 130px;
+}
+
 ul {
   list-style: none;
 }
@@ -437,7 +443,7 @@ header {
 }
 #solve-business-section {
   margin-top: 60px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 #solve-business-section .container h1 {
@@ -446,4 +452,216 @@ header {
   margin-bottom: 48px;
   font-weight: 700;
   letter-spacing: 0.25px;
+}
+
+.helpful-product:nth-child(1) {
+  margin-bottom: 24px;
+  width: calc(50% - 12px);
+  background-color: #e7f4f9;
+  background-image: url(../images/main-sections/pos-terminal.png);
+  padding-right: 280px;
+}
+
+.helpful-product:nth-child(2) {
+  margin-bottom: 24px;
+  width: calc(50% - 12px);
+  background-color: #ffebf0;
+  background-image: url(../images/main-sections/business-cards.png);
+  padding-right: 280px;
+}
+
+.helpful-product:nth-child(3) {
+  width: calc(33.33333% - 16px);
+  background-color: #fdf6e7;
+  background-image: url(../images/main-sections/factoring.png);
+  padding-right: 150px;
+}
+
+.helpful-product:nth-child(4) {
+  width: calc(33.33333% - 16px);
+  background-color: #e0f3ed;
+  background-image: url(../images/main-sections/e-commerce.png);
+  padding-right: 150px;
+  background-position: 100% 100%;
+}
+
+.helpful-product:nth-child(5) {
+  width: calc(33.33333% - 16px);
+  background-color: #f4f5f4;
+  background-image: url(../images/main-sections/bank-guarantee.png);
+  padding-right: 150px;
+}
+
+.helpful-products-container a {
+  display: flex;
+  flex-direction: row;
+}
+
+.helpful-products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.helpful-product {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  padding: 24px 24px 16px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.helpful-product h5 {
+  color: rgba(0, 0, 0, 0.8705882353);
+  font-size: 24px;
+  margin: 0 0 24px;
+}
+.helpful-product p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+}
+
+.helpful-product p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.helpful-product:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+@media (max-width: 768.98px) {
+  .helpful-products-container {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 991.98px) {
+  .helpful-product {
+    padding-right: 24px !important;
+    background-image: none !important;
+  }
+}
+@media (max-width: 768.98px) {
+  .helpful-product {
+    min-width: 311px;
+    flex: auto !important;
+    margin-right: 24px;
+    margin-bottom: 0 !important;
+  }
+  .helpful-product:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .helpful-product {
+    margin-right: 16px;
+  }
+}
+#helpful-products {
+  margin: 76px 150px;
+}
+
+#helpful-products .container h2 {
+  font-weight: normal;
+  margin-bottom: 48px;
+}
+
+#website-profits {
+  margin-top: 112px;
+  min-height: 653px;
+  background: url(../images/main-sections/online-bank.png);
+  background-size: 739px;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  margin-left: 150px;
+}
+#website-profits h5 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.8705882353);
+  margin: 0 0 8px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768.98px) {
+  #website-profits {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768.98px) {
+  #website-profits {
+    background: none;
+    min-height: auto;
+  }
+}
+#subscription {
+  margin-top: 96px;
+  margin-left: 150px;
+}
+
+.subscription-products {
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 24px;
+}
+.subscription-products h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.subscription-products-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.subscription-product {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  margin-right: 24px;
+  padding: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  border-radius: 8px;
+  background-color: #fff;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.subscription-product .subscription-price h2 {
+  font-size: 60px;
+  margin: 0 4px 0 0;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.8705882353);
+}
+
+.subscription-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: purple;
+}
+
+#help-button {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+@media (max-width: 768.98px) {
+  #subscription {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .subscription-product {
+    margin-right: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
