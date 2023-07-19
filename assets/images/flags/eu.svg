@@ -1,0 +1,53 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 4H22V19H2V4Z" fill="#003399"/>
+<path d="M11.9934 6.375L11.8363 6.89906L11.2891 6.88688L11.7391 7.19844L11.5581 7.715L11.9934 7.38313L12.4288 7.715L12.2478 7.19844L12.6978 6.88688L12.1506 6.89906L11.9934 6.375Z" fill="#FFCC00"/>
+<path d="M12.1506 15.79L11.9934 15.2656L11.8363 15.79L11.2891 15.7775L11.7391 16.0891L11.5581 16.6056L11.9934 16.2741L12.4288 16.6056L12.2478 16.0891L12.6978 15.7775L12.1506 15.79Z" fill="#FFCC00"/>
+<path d="M7.54844 11.8287L7.98375 12.1603L7.80281 11.6437L8.25281 11.3322L7.70563 11.3447L7.54844 10.8203L7.39094 11.3447L6.84375 11.3322L7.29375 11.6437L7.11313 12.1603L7.54844 11.8287Z" fill="#FFCC00"/>
+<path d="M9.82547 7.00391L9.66828 7.52797L9.12109 7.51547L9.57109 7.82734L9.39016 8.34391L9.82547 8.01203L10.2611 8.34391L10.0802 7.82734L10.5302 7.51547L9.98297 7.52797L9.82547 7.00391Z" fill="#FFCC00"/>
+<path d="M7.92266 9.47578L7.74172 9.99234L8.17734 9.66078L8.61266 9.99234L8.43172 9.47578L8.88172 9.16422L8.33453 9.17672L8.17734 8.65234L8.01984 9.17672L7.47266 9.16422L7.92266 9.47578Z" fill="#FFCC00"/>
+<path d="M8.33453 13.6295L8.17703 13.1055L8.01984 13.6295L7.47266 13.6173L7.92266 13.9289L7.74172 14.4455L8.17703 14.1136L8.61234 14.4455L8.43172 13.9289L8.88172 13.6173L8.33453 13.6295Z" fill="#FFCC00"/>
+<path d="M9.9439 15.1217L9.78672 14.5977L9.62922 15.1217L9.08203 15.1095L9.53203 15.4211L9.35109 15.9377L9.78672 15.6058L10.222 15.9377L10.0411 15.4211L10.4911 15.1095L9.9439 15.1217Z" fill="#FFCC00"/>
+<path d="M17.1434 11.3322L16.5962 11.3447L16.4387 10.8203L16.2816 11.3447L15.7344 11.3322L16.1844 11.6437L16.0034 12.1603L16.4387 11.8287L16.8741 12.1603L16.6934 11.6437L17.1434 11.3322Z" fill="#FFCC00"/>
+<path d="M13.907 7.82734L13.7261 8.34391L14.1617 8.01203L14.597 8.34391L14.4161 7.82734L14.8661 7.51547L14.3189 7.52797L14.1617 7.00391L14.0042 7.52797L13.457 7.51547L13.907 7.82734Z" fill="#FFCC00"/>
+<path d="M15.5516 9.47578L15.3706 9.99234L15.8059 9.66078L16.2416 9.99234L16.0606 9.47578L16.5106 9.16422L15.9634 9.17672L15.8059 8.65234L15.6487 9.17672L15.1016 9.16422L15.5516 9.47578Z" fill="#FFCC00"/>
+<path d="M15.9634 13.6295L15.8063 13.1055L15.6488 13.6295L15.1016 13.6173L15.5516 13.9289L15.3709 14.4455L15.8063 14.1136L16.2416 14.4455L16.0606 13.9289L16.5106 13.6173L15.9634 13.6295Z" fill="#FFCC00"/>
+<path d="M14.358 15.1217L14.2005 14.5977L14.0433 15.1217L13.4961 15.1095L13.9461 15.4211L13.7652 15.9377L14.2005 15.6058L14.6361 15.9377L14.4552 15.4211L14.9052 15.1095L14.358 15.1217Z" fill="#FFCC00"/>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
