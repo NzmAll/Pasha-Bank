@@ -43,7 +43,6 @@ header {
 .header-menu {
   margin-top: 1%;
 }
-
 .header-menu .menu-dropdown {
   border-top: 1px solid #edefed;
   background-color: #fff;
@@ -57,12 +56,10 @@ header {
   padding-bottom: 24px;
   transition-delay: 0.05s;
 }
-
 .header-menu .menu-dropdown-container {
   border-bottom: 1px solid #edefed;
   margin: 0 0 0 182px;
 }
-
 .header-menu .menu-item-link {
   display: block;
   color: rgba(0, 0, 0, 0.38);
@@ -73,11 +70,9 @@ header {
   line-height: 24px;
   letter-spacing: 0.15px;
 }
-
 .header-menu .menu-item-link:hover {
   color: rgba(0, 0, 0, 0.6);
 }
-
 .header-menu .nav-item:hover .menu-dropdown {
   visibility: visible;
   opacity: 1;
@@ -354,8 +349,7 @@ header {
   display: flex;
   align-items: center;
 }
-
-.list li {
+.link li {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
   font-size: 14px;
@@ -663,5 +657,56 @@ header {
 @media (max-width: 575.98px) {
   .subscription-product {
     margin-right: 16px;
+  }
+}
+#mobile-bank {
+  margin-top: 156px;
+  padding: 5px 0;
+  background-color: #fff;
+  background-image: url(../images/mobile-section/mobile-image.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: auto;
+  margin-left: 150px;
+}
+#mobile-bank h2 {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+#mobile-bank p {
+  margin-top: 24px;
+  margin-bottom: 54px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  width: 85%;
+}
+
+.social-media-links {
+  width: 141px;
+}
+.social-media-links p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.social-media-links span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768.98px) {
+  #mobile-bank {
+    background-image: none;
+  }
+}
+@media (max-width: 768.98px) {
+  #mobile-bank {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
