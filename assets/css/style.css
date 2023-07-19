@@ -337,4 +337,113 @@ header {
 }
 #slider figure {
   animation: slider 10s infinite;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.list li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.options {
+  border-radius: 8px;
+  background-color: #fff;
+  min-width: 311px;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 24px 24px 16px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  margin-right: 24px;
+}
+
+.options-container .options div h6 {
+  color: rgba(0, 0, 0, 0.8705882353);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.options-container .options div .link {
+  color: #099a71;
+}
+.options-container .options div .link:hover {
+  color: #007d57;
+}
+
+.options:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.options:last-child {
+  margin-right: 0;
+}
+
+.options .link {
+  margin-top: auto;
+}
+
+.options-list {
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 24px;
+}
+
+.options-container {
+  width: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 768.98px) {
+  .options {
+    padding: 16px 24px;
+  }
+}
+@media (max-width: 575.98px) {
+  .options {
+    margin-right: 16px;
+  }
+}
+@media (max-width: 768.98px) {
+  .options-container {
+    padding-right: 24px;
+  }
+}
+@media (max-width: 575.98px) {
+  .options-container {
+    padding-right: 16px;
+  }
+}
+#solve-business-section {
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+#solve-business-section .container h1 {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8705882353);
+  margin-bottom: 48px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
 }/*# sourceMappingURL=style.css.map */
