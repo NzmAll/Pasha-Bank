@@ -819,6 +819,8 @@ header {
 
 .accordion-header {
   cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .accordion-header-text {
@@ -826,12 +828,6 @@ header {
   max-width: 90%;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   font-size: 15px;
-}
-
-.accordion-header {
-  cursor: pointer;
-  padding: 10px;
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .accordion-content {
@@ -970,4 +966,13 @@ header {
   .copyright-container p:first-child {
     margin-bottom: 16px;
   }
+}
+.new-line:last-child {
+  margin-left: 150px;
+}
+
+#online-solves .options {
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }/*# sourceMappingURL=style.css.map */
