@@ -13,26 +13,26 @@
     padding-top: 24px;
     padding-bottom: 24px;
     transition-delay: 0.05s;
-  }
 
-  .menu-dropdown-container {
-    border-bottom: 1px solid #edefed;
-    margin: 0 0 0 182px;
-  }
+    .menu-dropdown-container {
+      border-bottom: 1px solid #edefed;
+      margin: 0 0 0 182px;
+    }
 
-  .menu-item-link {
-    display: block;
-    color: rgba(0, 0, 0, 0.38);
-    padding: 16px;
-    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.15px;
-  }
+    .menu-item-link {
+      display: block;
+      color: rgba(0, 0, 0, 0.38);
+      padding: 16px;
+      transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0.15px;
 
-  .menu-item-link:hover {
-    color: rgba(0, 0, 0, 0.6);
+      &:hover {
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
   }
 
   .nav-item:hover .menu-dropdown {

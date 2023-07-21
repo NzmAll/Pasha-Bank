@@ -1,16 +1,18 @@
-@import './variables2';
-@import './options';
-@import './solve-business-media';
+@import "./variables2";
+@import "./options";
+@import "./solve-business-media";
 
-#solve-business-section{
-    margin-top: 60px;
-    margin-left: 150px;
-}
+#solve-business-section {
+  margin-top: 60px;
+  margin-left: 150px;
 
-#solve-business-section .container h1{
-    font-size: 32px;
-    color: #000000DE;
-    margin-bottom: 48px;
-    font-weight: 700;
-    letter-spacing: .25px;
+  .container {
+    h1 {
+      font-size: 32px;
+      color: #000000de;
+      margin-bottom: 48px;
+      font-weight: 700;
+      letter-spacing: 0.25px;
+    }
+  }
 }

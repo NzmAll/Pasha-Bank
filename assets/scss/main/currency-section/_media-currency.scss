@@ -2,23 +2,19 @@
   #currency-table {
     margin-top: 40px;
   }
-}
 
-@media (max-width: 768.98px) {
   .currency-container .table thead th {
     padding: 12px 16px;
   }
-}
 
-@media (max-width: 768.98px) {
   .currency-container .table tbody td {
     padding: 20px 16px !important;
-  }
 
-  .currency-container .table tbody td h5 {
-    font-size: 15px;
-    line-height: 24px;
-    letter-spacing: 0.15px;
-    font-weight: 500;
+    h5 {
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+      font-weight: 500;
+    }
   }
 }

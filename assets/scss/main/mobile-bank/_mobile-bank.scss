@@ -1,24 +1,25 @@
 #mobile-bank {
-    margin-top: 156px;
-    padding: 5px 0;
-    background-color: #fff;
-    background-image: url(../images/mobile-section/mobile-image.svg);
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-    background-size:auto;
-    margin-left: 150px;
-    h2{
-        font-size: 20px;
-        margin-bottom: 24px;
-    }
-    p{
-        margin-top: 24px;
-        margin-bottom: 54px;
-        color: #00000099;
-        font-size: 15px;
-        width: 85%;
-    }
+  margin-top: 156px;
+  padding: 5px 0;
+  background-color: #fff;
+  background-image: url(../images/mobile-section/mobile-image.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: auto;
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-top: 24px;
+    margin-bottom: 54px;
+    color: #00000099;
+    font-size: 15px;
+    width: 85%;
+  }
 }
 
-@import './social-media-links';
-@import './media-mobile-bank';
+@import "./social-media-links";
+@import "./media-mobile-bank";

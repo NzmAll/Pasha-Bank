@@ -1,16 +1,14 @@
-@import './helpful-product-items';
-@import './helpful-products-container';
-@import './helpful-media';
+@import "./helpful-product-items";
+@import "./helpful-products-container";
+@import "./helpful-media";
 
-#helpful-products{
-    margin: 76px 150px;
-}
+#helpful-products {
+  margin-top: 76px;
 
-#helpful-products{
-    .container{
-        h2{
-            font-weight: normal;
-            margin-bottom: 48px;
-        } 
+  .container {
+    h2 {
+      font-weight: normal;
+      margin-bottom: 48px;
     }
+  }
 }
