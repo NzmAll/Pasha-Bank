@@ -788,7 +788,7 @@ header {
   justify-content: center;
   background-color: #4e5251;
   color: #fff;
-  background-image: url(../../images/account-images/kob-bg.jpg);
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/accounts/kob-bg.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -835,6 +835,7 @@ header {
 }
 
 .accordion-content {
+  display: none;
   background-color: #fff;
   color: #333;
   padding: 10px;
@@ -842,10 +843,6 @@ header {
 }
 .accordion-content a {
   color: #099a71;
-}
-
-.accordion-content {
-  display: none;
 }
 
 .footer {
