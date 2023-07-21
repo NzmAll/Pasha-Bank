@@ -1,0 +1,16 @@
+.account-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    // justify-content: center;
+    // align-items: center;
+    i{
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+}
+
+.benefits-container {
+    flex: 1;
+    margin-left: 24px
+}
