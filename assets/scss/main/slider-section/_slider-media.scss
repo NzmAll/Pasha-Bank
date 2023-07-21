@@ -1,0 +1,22 @@
+@media (max-width: 768.98px) {
+    .slider-item a{
+        width: 100%;    
+    
+    }   
+}  
+
+@media (max-width:1199.98px) {
+    .slider-item {
+        padding-top: 48px;
+        min-height: 376px;
+        background-image: none !important
+    }
+}
+
+@media (max-width:768.98px) {
+    .styles-h3 {
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: .25px
+    }
+}

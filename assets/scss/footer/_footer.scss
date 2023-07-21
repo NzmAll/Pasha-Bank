@@ -1,0 +1,17 @@
+.footer {
+    background-color: #fafafa;
+    padding-top: 48px;
+    margin-top: 96px;
+}
+
+@media (max-width:768.98px) {
+    .footer {
+        margin-top: 40px;
+        padding-top: 0;
+        border-bottom: 16px solid #fff;
+    }
+}
+
+@import './footer-contacts';
+@import './footer-list';
+@import './copyright';
