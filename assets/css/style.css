@@ -2641,4 +2641,16 @@ header {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.before-scroll {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+main section.scroll-active {
+  transform: translateY(0);
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
