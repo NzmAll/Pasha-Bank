@@ -1,0 +1,35 @@
+.documents-tab-content {
+  .document-conditions {
+    position: absolute;
+    top: 0;
+    left: 650px;
+    width: 100%;
+  }
+}
+
+.documents-tab-content-row {
+  padding: 16px 0;
+  border: solid #edefed;
+  border-width: 0 0 1px;
+}
+
+.documents-tab-content-row-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tab-content,
+.tab-pane.active {
+  position: relative;
+}
+
+.tab-pane.active {
+  z-index: 2;
+}
+
+.tab-pane:not(:first-child) {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,60 @@
+#credit-request {
+  background-color: #f1f9f7;
+  img {
+    position: absolute;
+    left: 250px;
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #credit-request {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .request-buttons {
+    flex-direction: column;
+    margin-bottom: 24px !important;
+    margin-top: 0 !important;
+  }
+
+  .request-buttons > a > .btn {
+    margin-bottom: 16px;
+    margin-right: 0 !important;
+    width: 100%;
+  }
+}
+
+#credit-request > .container {
+  background-image: url(../../images/zero_step.png);
+  background-position: left 112px bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 991px) {
+  #credit-request > .container {
+    background-image: none;
+  }
+}
+
+.request-question {
+  min-height: 48px;
+}
+
+.request-header {
+  height: 96px;
+  margin-top: 88px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 996px) {
+  .request-header {
+    height: auto;
+    padding-top: 0;
+    margin-bottom: 12px;
+    margin-top: 0;
+  }
+}

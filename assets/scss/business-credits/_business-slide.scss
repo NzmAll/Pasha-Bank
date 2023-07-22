@@ -1,0 +1,41 @@
+#business-slide {
+  background-color: #f1f9f7;
+  background-position: 100% 100%;
+}
+
+.slide-item .container {
+  padding-top: 104px;
+  padding-bottom: 52px;
+  background-position: right -40px bottom;
+  background-size: contain;
+
+  @media only screen and (max-width: 767px) {
+    background-image: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    a {
+      margin-top: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slide-item .slide-image img {
+    display: none;
+  }
+
+  .slide-item {
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin-bottom: 34px;
+    }
+
+    .mobile-center {
+      margin-top: 24px;
+    }
+  }
+}

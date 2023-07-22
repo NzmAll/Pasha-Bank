@@ -1,0 +1,23 @@
+.documents-conditions-tabs {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 16px 0;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  .nav-tabs {
+    margin-left: -16px;
+    margin-right: -16px;
+    a {
+      padding-left: 16px;
+      padding-right: 16px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.documents-conditions-tabs .tab-pane:not(:first-child) {
+  position: static;
+}
+
+.documents-conditions-tabs .fade:not(.show) {
+  display: none;
+}
