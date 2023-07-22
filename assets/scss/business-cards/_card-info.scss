@@ -1,0 +1,88 @@
+.card-info {
+    margin-bottom: 32px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .07);
+    transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    border-radius: 8px;
+    background-color: #fff
+}
+
+.card-info:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .07), 0 0 10px rgba(0, 0, 0, .03)
+}
+
+.card-info-context {
+    padding: 40px 24px 40px 32px
+}
+
+.card-info-texts {
+    padding: 40px 64px;
+    position: relative
+}
+
+.card-info-texts:before {
+    content: "";
+    position: absolute;
+    left: 64px;
+    top: 0;
+    width: calc(100% - 128px);
+    height: 1px;
+    background-color: #e2e3e2
+}
+
+.card-info-for-more {
+    transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    max-height: 900px;
+    display: none;
+}
+
+.card-info-image {
+    padding-right: 32px
+}
+
+.card-info-image img {
+    width: 100%
+}
+
+
+.card-info-texts-about {
+    margin-right: 40px
+}
+
+.card-info-texts-about:last-child {
+    margin-right: 0
+}
+
+.card-info .details-content {
+    padding-top: 4px
+}
+
+.card-info .details-content h6 {
+    font-size: 16px !important
+}
+
+.card-info .details-content .benefit-description {
+    color: rgba(0, 0, 0, .6)
+}
+
+.card-info:last-child {
+    margin-bottom: 0
+}
+
+.card-info .card-info-context button {
+    position: relative;
+    margin-left: 20px;
+    border: 1px solid gray;
+
+    span {
+        position: absolute;
+        top: 5px;
+        left: 40px;
+    }
+}
+
+.card-info .card-info-context button:hover {
+    opacity: 0.7;
+    background-color: rgb(240, 240, 240);
+    color: #058d66;
+    transition: opacity 1s;
+}
