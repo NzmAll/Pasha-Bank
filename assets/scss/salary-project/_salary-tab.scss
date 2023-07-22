@@ -1,0 +1,50 @@
+.tab-content,
+.tab.active {
+  position: relative;
+}
+
+.tab.active {
+  z-index: 2;
+}
+
+.tab:not(:first-child) {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.salary-card-advantage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.salary-card-container {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  padding: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: #fff;
+  height: 156px;
+  width: calc((100% - 48px) / 3);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.salary-card-container:nth-child(3n) {
+  margin-right: 0;
+}
+
+.salary-card-container:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+#salary-benefits-section i {
+  font-size: 22px;
+}
+
+#salary-benefits-section .nav-tabs button {
+  color: #00000061;
+}

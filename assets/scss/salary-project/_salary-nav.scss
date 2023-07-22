@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  border-bottom: 1px solid #e2e3e2;
+}
+
+.nav-item {
+  margin-right: 32px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  padding: 0 8px 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item.active {
+  position: relative;
+  color: #343836;
+}
+
+.nav-item.active:after {
+  position: absolute;
+  content: "";
+  background: #058d66;
+  border-radius: 0 0 2px 2px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -1px;
+}

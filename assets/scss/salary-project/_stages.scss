@@ -1,0 +1,46 @@
+#stages-section {
+  margin-top: 96px;
+}
+
+.stages {
+  margin-top: 40px;
+  display: flex;
+}
+
+.stage-image {
+  position: relative;
+}
+
+.stage-image:after {
+  position: absolute;
+  content: "";
+  width: calc(100% - 88px);
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background-color: #edefed;
+}
+
+.stage-text {
+  padding: 0 12px;
+  overflow-wrap: break-word;
+}
+
+.stage {
+  width: calc((100% - 48px) / 3);
+  margin-right: 24px;
+}
+
+.stage:last-child {
+  margin-right: 0;
+}
+
+.stage:last-child .stage-image:after {
+  width: 0;
+}
+
+.stage i {
+  font-size: 30px;
+}
+
+@import "./stages-media";

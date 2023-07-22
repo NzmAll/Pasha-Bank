@@ -1,0 +1,46 @@
+@media (max-width: 1199.98px) {
+  #salary-benefits-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .salary-cards__advantage {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .salary-card-container {
+    margin-right: 16px;
+    flex: 0 0 auto;
+    width: 35vw;
+  }
+
+  .salary-card-container:nth-child(3n) {
+    margin-right: 16px;
+  }
+
+  .salary-card-container:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .salary-card-container {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .salary-card-container {
+    height: 156px;
+    padding: 16px 24px;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .salary-card-container {
+    width: 90vw;
+  }
+}
