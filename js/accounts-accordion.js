@@ -2,11 +2,11 @@ export function accAccordion() {
   const accordionItems = document.querySelectorAll(".accordion-item");
 
   accordionItems.forEach((accordionItem, index) => {
-    let header = accordionItem.querySelector(".accordion-header");
+    const header = accordionItem.querySelector(".accordion-header");
     header.addEventListener("click", function () {
       accordionItem.classList.toggle("open");
 
-      let description = accordionItem.querySelector(".accordion-content");
+      const description = accordionItem.querySelector(".accordion-content");
       if (accordionItem.classList.contains("open")) {
         description.style.display = "block";
         header.querySelector("i").classList.replace("fa-plus", "fa-minus");
@@ -24,7 +24,7 @@ export function accAccordion() {
       if (index1 !== index2) {
         item2.classList.remove("open");
 
-        let des = item2.querySelector(".accordion-content");
+        const des = item2.querySelector(".accordion-content");
         des.style.display = "none";
         item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
       }

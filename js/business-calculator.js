@@ -4,18 +4,18 @@ export function businessCalculator() {
   const totalText = document.querySelector(
     ".calculator-result #monthly-paid-amount"
   );
-  let percentText = document.querySelector(".calculator-result #interest-rate");
-  let totalPercent = parseInt(percentText.textContent);
+  const percentText = document.querySelector(".calculator-result #interest-rate");
+  const totalPercent = parseInt(percentText.textContent);
 
-  let totalCost = 0;
-  let totalMoney = 5000;
-  let totalMonth = 3;
+  const totalCost = 0;
+  const totalMoney = 5000;
+  const totalMonth = 3;
 
   inputSlides.forEach((inputSlide) => {
-    let slideValue =
+    const slideValue =
       inputSlide.parentElement.firstElementChild.querySelector("input");
     inputSlide.oninput = () => {
-      let value1 = inputSlide.value;
+      const value1 = inputSlide.value;
       slideValue.value = value1;
       if (slideValue.value.length > 3) {
         totalMoney = parseInt(slideValue.value);
@@ -119,31 +119,31 @@ export function businessCalculator() {
         totalMoney / totalMonth + (totalMoney * (totalPercent / 12)) / 100;
       totalText.textContent = totalCost.toFixed(2);
 
-      let inputSlideString = JSON.stringify(inputSlide);
+      const inputSlideString = JSON.stringify(inputSlide);
 
       localStorage.setItem("inputSlide", inputSlideString);
 
-      let retrievedDataString = localStorage.getItem("inputSlide");
+      const retrievedDataString = localStorage.getItem("inputSlide");
 
-      let retrievedData = JSON.parse(retrievedDataString);
+      const retrievedData = JSON.parse(retrievedDataString);
 
       console.log(retrievedData);
     };
   });
 
   inputSlides.forEach(function (div) {
-    let divHtml = div.innerHTML;
+    const divHtml = div.innerHTML;
     localStorage.setItem(div.id, divHtml);
   });
 
   inputSlides.forEach(function (div) {
-    let savedHtml = localStorage.getItem(div.id);
+    const savedHtml = localStorage.getItem(div.id);
     div.innerHTML = savedHtml;
   });
 
-  let totalTextHtml = totalText.innerHTML;
+  const totalTextHtml = totalText.innerHTML;
   localStorage.setItem(totalText.id, totalTextHtml);
 
-  let savedHtml = localStorage.getItem(totalText.id);
+  const savedHtml = localStorage.getItem(totalText.id);
   div.innerHTML = savedHtml;
 }
